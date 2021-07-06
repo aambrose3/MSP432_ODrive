@@ -1,6 +1,7 @@
 /*
  * ODrive.c
- *
+ * This file contains global functions that follow the communicaiton protocol for the ODrive motor controller. Please see
+ * ODrive documentation for more information.
  *  Created on: Mar 17, 2021
  *      Author: A. Ambrose
  */
@@ -69,6 +70,8 @@ char readFeedback(char motor[]){ // Reads the current position estimate of the m
 }
 
 /*
+
+These functions are not used by the main file and have been removed.
 
 void vbus_voltage(void){
     int i = 0;
